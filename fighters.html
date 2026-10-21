@@ -43,6 +43,52 @@
         .card-ring { background: linear-gradient(135deg, rgba(220,38,38,0.15) 0%, rgba(15,15,15,0.95) 100%); border: 1px solid rgba(249,115,22,0.3); }
         .card-ring:hover { border-color: rgba(249,115,22,0.6); transform: translateY(-2px); }
     </style>
+
+    <script type="application/ld+json">
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://firstpersonboxing.online/#website",
+          "name": "First Person Boxing",
+          "url": "https://firstpersonboxing.online/",
+          "inLanguage": "en"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://firstpersonboxing.online/fighters.html#webpage",
+          "url": "https://firstpersonboxing.online/fighters.html",
+          "name": "Fighter Profiles - First Person Boxing",
+          "description": "Complete list of First Person Boxing fighters with stats, fighting styles, strengths and weaknesses for every weight class in the current game roster.",
+          "isPartOf": {
+            "@id": "https://firstpersonboxing.online/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://firstpersonboxing.online/fighters.html#breadcrumb"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://firstpersonboxing.online/fighters.html#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://firstpersonboxing.online/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Fighter Profiles - First Person Boxing"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 </head>
 <body class="text-gray-100 antialiased">
     <header class="card-ring sticky top-0 z-50 border-b border-orange-500/30">
